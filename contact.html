@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-
-<head>
+<html>
+    <head>
     <meta charset="UTF-8">
     <title>Contact info</title>
 </head>
-<body><h1>Contact info</h1>
-    <ut>
-        <table>
-            <tr>
-                <td><li><strong>Contact no.</strong></li></td>
-                <td>: +8801712096576</td>
-            </tr>
-            <tr>
-                <td><li><strong>Email</strong></li></td>
-                <td>: hasibfire24@gmail.com</td>
-            </tr>
-            </table>
-        </ut>
-        <hr>
-
-        <form action="index.html" method="post">
-            <label>Your Name :</label>
-            <input type="text" name="Yournamr" value=""><br>
-            <label>Your email :</label>
-            <input type="email" name="Yourmail" value=""><br>
-            <label>Your Message:</label>
-            <textarea
-                name="Yourmessage"
-                rows="10"
-                cols="30"
-                placeholder="Write your message here">
-            </textarea><br>
-            <button type="submit">Submit</button>
-        </form>
-    </body>
+<body>
+    <h1>Contact info</h1>
+    <p><strong>Contact no.</strong>: +8801712096576</p>
+    <p><strong>Email</strong>: hasibfire24@gmail.com</p>
+    <hr>
+    <form action="mailto:info@hasibfire24@gmail.com" method="post" enctype="text/plain">
+        <label>Your name:</label>
+        <input type="text" name="Yourname" id="name"><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourmail" id="email"><br>
+        <label>Your message</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+    </form>
+</body>
 </html>
