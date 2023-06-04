@@ -1,6 +1,10 @@
-body { background-color: bisque;}
+body { background-color: bisque;
+    margin: 0;
+}
 
-h1 { color: #ff9e2b;
+h1 { 
+    color: #ff9e2b;
+    margin: 0;
 }
 h3 { 
     color: #ff9e2b;
@@ -13,4 +17,25 @@ hr {
     border-color: gray;
     width: 5%;
 
+}
+
+.hobbies 
+{
+    background-color: honeydew;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-info
+{
+    background-color: khaki;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container
+{
+    background-color: powderblue;
 }
